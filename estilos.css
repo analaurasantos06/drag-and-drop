@@ -1,0 +1,33 @@
+div{
+    border: 2px solid black;
+    width: 30%;
+    height: 30%;
+    padding: 80px;
+    float: left;
+
+}
+
+.div2{
+   border: 2px solid black;
+   width: 30%;
+   height: 30%;
+   padding: 80px;
+   float: left;
+   font-size: medium;
+}
+
+.angry-grid {
+   display: grid;
+
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr;
+   
+   grid-template-areas:
+   '. .'
+   '. .'
+   '. .';
+   
+   gap: 10px;
+   height: 100%;
+   width: 50%;
+}
